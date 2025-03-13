@@ -64,9 +64,9 @@ def generate_story_from_text(scenario: str) -> str:
 def main() -> None:
     st.set_page_config(page_title="IMAGE TO STORY CONVERTER", page_icon="🖼")
     st.markdown(css_code, unsafe_allow_html=True)
-    st.image("ai image.jpg")
+    st.image("WhatsApp Image 2025-03-13 at 09.27.06_6d1196d0.jpg")
     with st.sidebar:
-        st.image("ai image.jpg")
+        st.image("WhatsApp Image 2025-03-13 at 09.27.06_6d1196d0.jpg")
         st.write("AI App created by @ PragyanAI - Education Purpose")
         st.write("Contact Sateesh Ambesange for 5 Days Workshop:pragyan.ai.school@gmail.com")
         st.write("TB - Story to Audio will be done Later")
